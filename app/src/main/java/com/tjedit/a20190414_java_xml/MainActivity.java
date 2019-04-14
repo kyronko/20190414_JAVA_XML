@@ -29,6 +29,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d("확인버튼", "터치 이벤트가 발생 했다!!");
+                //ctrl + / = 한줄 주석
+//                입력에딧텍스트의 내용을 뽑아서 userInputStr
+                String userInputstr= inputEditText.getText().toString();
+//                담겨있던 내용을 가져다가 내용 TextView의 text로 집어넣음(set).
+
+                contentTextView.setText(userInputstr);
 
             }
         });
