@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         okBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("확인버튼", "터치 이벤트가 발생 했다!");
+                Log.d("확인버튼", "터치 이벤트가 발생 했다!!");
 
             }
         });
